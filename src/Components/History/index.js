@@ -2,7 +2,7 @@ import './History.css';
 
 const History = (props) => {
     return (
-        <section className='history' style={{flexDirection: props.estilo}}>
+        <section className='history'>
             <img src={props.imagem} />
             <div>
                 <h2>{props.titulo}</h2>

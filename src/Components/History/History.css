@@ -21,3 +21,15 @@
     font-size: 32px;
     text-align: justify;
 }
+
+@media(max-width: 720px){
+    .history{
+        flex-direction: column;
+    }
+    .history img{
+        margin-bottom: 5%;
+    }
+    .history h2{
+        text-align: center;
+    }
+}
