@@ -1,0 +1,19 @@
+header{
+    margin-bottom: 10%;
+    margin-top: 96px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    
+}
+.link{
+    font-family: var(--font-geo);
+    font-size: 40px;
+    font-weight: 10%;
+    color: var(--color-ciano);
+    border: 1px solid var(--color-ciano);
+    background-color: transparent;
+    text-decoration: none;
+}

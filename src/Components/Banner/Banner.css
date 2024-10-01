@@ -1,0 +1,25 @@
+h1{
+    margin-block: 1rem;
+    font-family: var(--font-get);
+    font-size: 12.5rem;
+    color: var(--color-ciano);
+    filter: drop-shadow(0 0 0.75rem var(--color-lime-green));
+    -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+}
+
+h1 span{
+    font-size: 96px;
+}
+
+.vamos{
+    font-family: var(--font-geo);
+    font-size: 40px;
+    width: 20rem;
+    align-self: center;
+    color: white;
+    background-color: var(--color-ciano);
+    margin-top: 50px;
+    border: none;
+}

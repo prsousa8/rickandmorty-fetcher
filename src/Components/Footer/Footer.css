@@ -1,0 +1,15 @@
+footer{
+    background: linear-gradient(var(--color-dark-green),var(--color-light-green));
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+}
+
+footer h4{
+    align-self: center;
+    font-size: 40px;
+    color: var(--color-white);
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'get_schwifty';
+  src: url('../public/fonts/get_schwifty.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --font-geo: "Geo", sans-serif;
+  --font-get: "get_schwifty";
+
+  --color-ciano: #0AAAC0;
+  --color-white: #FFFF;
+  --color-dark-dark-green: #252525;
+  --color-green: #2B4923;
+  --color-dark-green: #1F281C;
+  --color-light-green: #6D8E65;
+  --color-light-light-green: #67AF54;
+  --color-lime-green: #5DE412;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--font-geo);
+  background: linear-gradient(var(--color-dark-dark-green),var(--color-green));
+}
+body::-webkit-scrollbar {
+  width: 5px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(var(--color-dark-dark-green),var(--color-green));        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-ciano);    
+  border-radius: 20px;       
+}
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+p{
+  font-size: 40px;
+  color: var(--color-white);
+  max-width: 60%;
+  margin: 0 auto;
+  font-weight: normal;
 }
