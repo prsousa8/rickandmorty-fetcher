@@ -18,23 +18,13 @@
   --color-light-light-green: #67AF54;
   --color-lime-green: #5DE412;
 }
-html, body, #root {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 0;
   font-family: var(--font-geo);
   background: linear-gradient(var(--color-dark-dark-green),var(--color-green));
 }
-
-
 body::-webkit-scrollbar {
   width: 5px;               
 }
