@@ -1,4 +1,4 @@
-.contact{
+.contact {
     width: 100%;
     height: 60%;
     background-color: var(--color-light-light-green);
@@ -8,22 +8,30 @@
     margin: 0 auto;
 }
 
-.contact h3{
+.contact h3 {
     font-size: 64px;
     color: var(--color-green);
     font-weight: normal;
     margin: 0 auto;
 }
 
-.contact h4{
+.contact h4 {
     font-size: 40px;
     color: var(--color-white);
     font-weight: normal;
     margin: 0 auto;
 }
 
-.contact div{
+.contact div {
     display: flex;
     justify-content: center;
     gap: 100px;
+}
+
+@media(max-width: 440px) {
+    .contact div {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
 }

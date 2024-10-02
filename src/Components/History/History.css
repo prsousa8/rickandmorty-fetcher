@@ -33,3 +33,11 @@
         text-align: center;
     }
 }
+
+@media(max-width: 440px){
+    .history img{
+        margin-bottom: 5%;
+        height: 27rem;
+        width: 19.5rem;
+    }
+}

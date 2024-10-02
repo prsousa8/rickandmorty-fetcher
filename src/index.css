@@ -53,3 +53,13 @@ p{
   margin: 0 auto;
   font-weight: normal;
 }
+
+@media(max-width: 440px){
+  p{
+    font-size: 27px;
+    color: var(--color-white);
+    max-width: 60%;
+    margin: 0 auto;
+    font-weight: normal;
+  }
+}
