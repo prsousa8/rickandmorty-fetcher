@@ -18,9 +18,15 @@
   --color-light-light-green: #67AF54;
   --color-lime-green: #5DE412;
 }
-
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
 
 body {
+  height: 100%;
   margin: 0;
   font-family: var(--font-geo);
   background: linear-gradient(var(--color-dark-dark-green),var(--color-green));
