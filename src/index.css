@@ -27,6 +27,9 @@ html, body, #root {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: var(--font-geo);
   background: linear-gradient(var(--color-dark-dark-green),var(--color-green));
 }
