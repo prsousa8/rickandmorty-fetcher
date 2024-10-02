@@ -42,3 +42,15 @@
         transform: translateX(-500%);
     }
 }
+
+@media(max-width: 440px){
+    .slide {
+        flex-shrink: 0;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        font-size: 32px;
+        color: var(--color-white);
+        font-weight: normal;
+    }
+}

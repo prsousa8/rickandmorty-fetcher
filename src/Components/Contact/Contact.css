@@ -34,4 +34,19 @@
         justify-content: center;
         gap: 50px;
     }
+    .contact h4 {
+        font-size: 27px;
+        color: var(--color-white);
+        font-weight: normal;
+        margin: 0 auto;
+    }
+    .contact h3 {
+        font-size: 48px;
+        color: var(--color-green);
+        font-weight: normal;
+        margin: 0 auto;
+    }
+    .contact img{
+        width: 3rem;
+    }
 }

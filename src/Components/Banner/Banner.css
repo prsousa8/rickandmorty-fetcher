@@ -29,3 +29,19 @@ h1 span{
         font-size: 8rem;
     }
 }
+
+@media(max-width: 440px){
+    h1{
+        font-size: 5rem;
+    }
+    .vamos{
+        font-family: var(--font-geo);
+        font-size: 32px;
+        width: 15rem;
+        align-self: center;
+        color: white;
+        background-color: var(--color-ciano);
+        margin-top: 50px;
+        border: none;
+    }
+}

@@ -17,3 +17,9 @@ nav{
     background-color: transparent;
     text-decoration: none;
 }
+
+@media(max-width: 440px){
+    .link{
+        font-size: 32px;
+    }
+}
