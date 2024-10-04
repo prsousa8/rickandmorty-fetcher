@@ -1,7 +1,6 @@
 import Banner from '../../Components/Banner';
 import Contact from '../../Components/Contact';
 import History from '../../Components/History';
-import Phrases from '../../Components/Phrases';
 import SectionCardBanner from '../../Components/SectionCardBanner';
 import SectionData from '../../Components/SectionData';
 import './Home.css';
@@ -23,7 +22,6 @@ const Home = () => {
                 descricao='No episódio piloto, Rick arrasta Morty para uma aventura perigosa em outra dimensão para coletar sementes de "Mega Trees". Isso estabelece o tom da série, mostrando o relacionamento caótico e às vezes abusivo entre Rick e Morty, bem como a natureza bizarra e imprevisível das aventuras que eles enfrentam.'
             />
             <SectionData />
-            <Phrases />
             <Contact />
             </main>
             </>
