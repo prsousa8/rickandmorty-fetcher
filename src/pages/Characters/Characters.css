@@ -1,0 +1,43 @@
+/* .characters-principal{
+    background-color: #ffffff;
+} */
+.characters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+}
+
+.botaopage{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.botaopage button{
+    background: none;
+    border: 0;
+}
+
+.botaopage img:hover{
+    filter: drop-shadow(0 0 0.5rem var(--color-ciano));
+
+}
+
+@media(max-width: 800px){
+    .characters-principal p{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 500px){
+    .characters{
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
